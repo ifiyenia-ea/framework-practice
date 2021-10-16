@@ -1,0 +1,117 @@
+@import url(../node_modules/bootstrap/scss/bootstrap);
+body {
+  color: antiquewhite;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav a {
+  font-family: "Arima Madurai", cursive;
+}
+
+.navbar-brand {
+  font-family: "Butterfly Kids", cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 50px;
+  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-family: "Indie Flower", cursive;
+}
+
+p {
+  font-family: "Arima Madurai", cursive;
+  text-align: justify;
+}
+
+.greek {
+  font-family: "GFS Neohellenic", sans-serif;
+}
+
+.footer__navbar-brand {
+  font-size: 20px;
+}
+.footer__logo {
+  width: 25px;
+}
+
+@media screen and (min-width: 801px) {
+  body, html {
+    height: 100vh;
+  }
+
+  body {
+    background-image: url(../images/unicorn-background-large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  nav a {
+    margin-left: 20px;
+  }
+
+  p {
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+  }
+
+  .dropdown-item {
+    margin-left: 0px;
+  }
+
+  .main {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .mb-3 {
+    max-width: 500px;
+  }
+
+  .pegasus-img {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background: url(../images/unicorn-background-medium.jpg) no-repeat center fixed;
+  }
+
+  .main {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  p {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url(../images/unicorn-background-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
